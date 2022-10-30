@@ -5,7 +5,7 @@
 
 @media all and (max-width: 768px) {
     .intro {
-        width: calc(100vw - (16 * 2));
+        width: calc(100vw - (16px * 2));
         margin-left: 16px;
         margin-right: 16px;
         padding-top: 64px;
@@ -14,7 +14,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .intro {
-        width: calc(100vw - (24 * 2));
+        width: calc(100vw - (24px * 2));
         margin-left: 24px;
         margin-right: 24px;
         padding-top: 88px;
