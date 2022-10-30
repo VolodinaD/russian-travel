@@ -13,6 +13,6 @@
 
 **GitHub Pages**
 
-* [Ссылка на на GitHub Pages](https://volodinad.github.io/russian-travel/)
+* [Ссылка на на GitHub Pages](https://volodinad.github.io/russian-travel/index.html)
 
 
