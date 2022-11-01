@@ -4,32 +4,34 @@
     grid-template-rows: 1fr;
 }
 
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+}
+
 @media all and (max-width: 768px) {
     .cover {
-        width: 100vw;
-        padding-top: 66px;
+        width: 100%;
+        margin-top: 66px;
     }    
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .cover {
-        width: 100vw;
-        padding-top: 90px;
+        width: 100%;
+        margin-top: 90px;
     } 
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover {
-        width: 100vw;
-        padding-top: 92px;
+        width: 100%;
+        margin-top: 92px;
     } 
 }   
 
 @media screen and (min-width: 1280px) {
     .cover {
-        width: calc(100vw - (48px * 2));
-        margin-left: 48px;
-        margin-right: 48px;
-        padding-top: 92px;
+        max-width: 1184px;
+        margin: 92px auto 0;
     } 
 }  

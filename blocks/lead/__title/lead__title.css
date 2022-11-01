@@ -13,7 +13,7 @@
     }    
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1280px) {
     .lead__title {
         max-width: 720px;
         padding-top: 48px;
@@ -21,15 +21,6 @@
         line-height: 1.04;
     } 
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .lead__title {
-        max-width: 720px;
-        padding-top: 48px;
-        font-size: 96px;
-        line-height: 1.04;
-    } 
-}   
 
 @media screen and (min-width: 1280px) {
     .lead__title {

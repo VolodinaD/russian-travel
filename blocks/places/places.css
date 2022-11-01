@@ -6,8 +6,6 @@
 
 @media all and (max-width: 768px) {
     .places {
-        margin-left: 16px;
-        margin-right: 16px;
         padding-top: 64px;
     }  
 }
@@ -30,8 +28,8 @@
 
 @media screen and (min-width: 1280px) {
     .places {
-        margin-left: 148px;
-        margin-right: 148px;
+        margin-left: calc((100vw - 984px) / 2);
+        margin-right: calc((100vw - 984px) / 2);
         padding-top: 92px;
     }  
 }

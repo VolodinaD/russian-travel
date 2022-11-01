@@ -4,10 +4,6 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-  
-.header__link:nth-child(1) {
-    text-decoration: underline;
-}
 
 .header__link:hover {
     text-decoration: underline;

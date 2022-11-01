@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1280px) {
     .lead__caption {
-        margin-left: 148px;
+        margin-left: calc((100vw - 984px) / 2);
     }  
 }
 

@@ -5,6 +5,8 @@
 
 @media all and (max-width: 767px) {
     .place__paragraph-list {
+        margin-left: 16px;
         margin-right: 16px;
     }  
 }
+

@@ -2,12 +2,14 @@
     margin: 0;
     font-weight: 400;
     text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media all and (max-width: 768px) {
     .cover__subtitle {
         max-width: 288px;
-        padding-top: 16px;
+        padding-top: 8px;
         font-size: 14px;
         line-height: 1.14;
     }    
@@ -16,7 +18,7 @@
 @media all and (min-width: 768px) {
     .cover__subtitle {
         max-width: 360px;
-        padding-top: 32px;
+        padding-top: 16px;
         font-size: 18px;
         line-height: 1.22;
     } 

@@ -15,7 +15,7 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(340px, 1fr) 1fr;
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
         row-gap: 48px;
         padding-top: 73px;
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .place {
-        grid-template-columns: minmax(440px, 1fr) 1fr;
+        grid-template-columns: 440px 1fr;
         column-gap: 32px;
         row-gap: 48px;
         padding-top: 80px;
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 1280px) {
     .place {
-        grid-template-columns: minmax(460px, 1fr) 1fr;
+        grid-template-columns: 460px 1fr;
         column-gap: 40px;
         row-gap: 48px;
         padding-top: 80px;

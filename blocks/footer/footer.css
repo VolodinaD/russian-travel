@@ -21,7 +21,7 @@
     } 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
     .footer {
         flex-direction: row;
         justify-content: space-between;
@@ -30,3 +30,14 @@
         padding-top: 92px;
     } 
 }   
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        width: calc(1280px - (48px * 2));
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 92px;
+    } 
+} 
