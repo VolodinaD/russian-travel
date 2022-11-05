@@ -2,8 +2,6 @@
     margin: 0;
     font-weight: 900;
     text-align: center;
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 @media all and (max-width: 768px) {

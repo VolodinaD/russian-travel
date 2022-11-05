@@ -3,10 +3,11 @@
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
 .header__link:hover {
-    text-decoration: underline;
+    opacity: 0.8;
 }
 
 @media all and (max-width: 768px) {

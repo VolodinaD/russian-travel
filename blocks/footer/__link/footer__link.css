@@ -1,5 +1,6 @@
 .footer__link {
     margin: 0;
+    max-width: fit-content;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
